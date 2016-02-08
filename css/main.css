@@ -1,0 +1,117 @@
+body
+{
+  background: #fffff0;
+}
+
+section
+{
+  padding: 20px 0;
+}
+
+header
+{
+  padding-top: 20px;
+}
+
+header h1
+{
+  color: #7B8186
+}
+
+img
+{
+  max-width: 100%;
+  box-shadow: 0 0 3px #777777;
+}
+
+hr
+{
+  border: 1px solid #e5e5e5;
+  margin: 0;
+}
+
+.main-nav
+{
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+.nav > li, .nav > li > a
+{
+  font-size: 22px;
+  color: #7B8186;
+}
+
+.nav > li > a:hover, .nav > li > a:focus
+{
+  background: transparent;
+  text-decoration: underline;
+}
+
+ul.navbar-nav
+{
+  padding-top: 20px;
+}
+
+.navbar nav > ul > li
+{
+  padding: 0 20px;
+}
+
+.professional-work
+{
+  padding-top: 30px;
+}
+
+.professional-work img
+{
+  margin-top: 30px;
+  height: 350px;
+}
+
+.professional-work h3,
+h2,
+.notables
+{
+  font-weight: bold;
+}
+
+#about h2
+{
+  margin-top: 8em;
+  color: #FF8300;
+}
+
+#about p#intro
+{
+  font-size: 1.25em;
+  margin-bottom: 1em;
+  line-height: 1.5;
+}
+
+#about p#intro a
+{
+  color: #000;
+  text-decoration: underline;
+}
+
+#work h2
+{
+  color: #7B8186;
+}
+
+#contact h2
+{
+  color: #35a7ce;
+}
+
+.email
+{
+  font-size: 4.5em;
+}
+
+#contact img
+{
+  height: 4.5em;
+  box-shadow: none;
+}
