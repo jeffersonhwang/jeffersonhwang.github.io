@@ -1,6 +1,6 @@
 body
 {
-  background: #fffff0;
+  background: #f7f7f7;
 }
 
 section
@@ -15,12 +15,16 @@ header
 
 header h1
 {
-  color: #7B8186
+  color: #000;
 }
 
 img
 {
   max-width: 100%;
+}
+
+.box-shadow
+{
   box-shadow: 0 0 3px #777777;
 }
 
@@ -61,6 +65,7 @@ ul.navbar-nav
 .professional-work
 {
   padding-top: 30px;
+  color: #7B8186;
 }
 
 .professional-work img
@@ -76,20 +81,30 @@ h2,
   font-weight: bold;
 }
 
+.professional-work h3
+{
+  color: #000;
+}
+
+#about, #work, #contact
+{
+  margin-top: 20px;
+}
+
 #about h2
 {
   margin-top: 8em;
   color: #FF8300;
 }
 
-#about p#intro
+p.snippet
 {
   font-size: 1.25em;
   margin-bottom: 1em;
   line-height: 1.5;
 }
 
-#about p#intro a
+p.snippet a
 {
   color: #000;
   text-decoration: underline;
@@ -97,7 +112,54 @@ h2,
 
 #work h2
 {
-  color: #7B8186;
+  color: #35a7ce; /* #7B8186; */
+  margin-top: 6em;
+}
+
+#resume
+{
+  background-image: url('../imgs/resume.svg');
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+
+#work a
+{
+  text-decoration: none;
+}
+
+.overlay
+{
+  background: rgba(0,0,0,.75);
+  text-align: center;
+  padding: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+
+.button:hover .overlay {
+    opacity: 1;
+}
+
+#resume span
+{
+  padding-top: 21%;
+}
+
+.button span
+{
+  font-size: 2em;
+  font-weight: 900;
+  color: rgba(255,255,255,.85);
+  word-break: inherit;
+  white-space: normal;
+  padding-left: 1%;
+  padding-right: 1%;
+  display: block;
 }
 
 #contact h2
