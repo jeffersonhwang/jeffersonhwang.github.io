@@ -178,3 +178,49 @@ p.snippet a
   height: 4.5em;
   box-shadow: none;
 }
+
+#contact input[type="text"],
+#contact textarea
+{
+  display: block;
+  background: #f3f3ef;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  height: 50px;
+  line-height: 58px;
+  padding: 0;
+  text-indent: 18px;
+  margin: 0 0 18px;
+}
+
+#contact input[type="submit"]
+{
+    font-size: 25px;
+    background: #ee5a28;
+    color: #fff;
+    border: none;
+    padding: 8px 28px 12px 26px;
+}
+
+#contact textarea
+{
+  max-width: 100%;
+  height: 120px;
+}
+
+@media only screen and (max-width: 1080px)
+{
+  #about h2,
+  #work h2
+  {
+    margin-top: 1em;
+  }
+
+  #resume
+  {
+    height: 200px;
+  }
+}
